@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">UCCApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="faculty_staff_directory">Faculty/Staff Directory</string>
+    <string name="courses">Courses</string>
+    <string name="admissions">Admissions</string>
+    <string name="social_media">Social Media</string>
+    <string name="email_fab">Email FAB</string>
+    <string name="uccapplink"><a href="https://ucc.edu.jm/apply/">Apply Now!!</a></string>
+    <string name="activity_body">Activity body</string>
+    <string name="copyright_2023_tuffic_gilzene">© Copyright 2023. Tuffic Gilzene</string>
+
+    <string-array name="faculty">
+        <item>Natalie, ROSE</item>
+        <item>Cecil, WHITE</item>
+        <item>Henry, OSBOURNE</item>
+        <item>Damion, TOPPING</item>
+        <item>Stephen, GENTLES</item>
+        <item>Otis, OSBOURNE</item>
+        <item>Karen, WILSON</item>
+    </string-array>
+
+</resources>

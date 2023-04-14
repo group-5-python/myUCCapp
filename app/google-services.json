@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437013425689",
+    "project_id": "myuccapp",
+    "storage_bucket": "myuccapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437013425689:android:63ef5766d635c43f010488",
+        "android_client_info": {
+          "package_name": "com.example.myuccapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437013425689-ulabeitpgi3ldo9t9tebe4uu8ti9cd38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAPvejcm-IWbz2lMg4bX5D-KJitToqwlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437013425689-ulabeitpgi3ldo9t9tebe4uu8ti9cd38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admission">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20sp"
+            android:scrollIndicators="none"
+            android:scrollbarSize="0sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="144sp"
+                    android:layout_height="111dp"
+                    android:padding="16sp"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16sp"
+                    android:text="Department of Information Technology, University of The Commonwealth \nCaribbean "
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admission Details" />
+
+                <TextView
+                    android:id="@+id/tvAboutIntro"
+                    android:layout_width="370dp"
+                    android:layout_height="431dp"
+                    android:paddingHorizontal="16sp"
+                    android:paddingVertical="8sp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:id="@+id/ucclink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="@string/uccapplink"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+        <View
+            android:id="@+id/snackbarPlacement"
+            android:layout_width="match_parent"
+            android:layout_height="12sp"
+            android:layout_alignParentBottom="true"
+            android:background="#00000000" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
